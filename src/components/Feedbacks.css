@@ -1,0 +1,95 @@
+.Feedbacks{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Images{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleImage{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 1px;
+    border: 1px solid white;
+}
+.rightImage{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: translateX(40px);
+    z-index: -9;
+    filter: blur(3px) saturate(0.5);
+}
+.leftImage{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: translateX(-40px);
+    z-index: -9;
+    filter: blur(3px) saturate(0.5);
+}
+.buttons {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  pointer-events: none; /* allow child buttons to get events */
+  z-index: 10;
+}
+
+.leftButton,
+.rightButton {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  pointer-events: all; /* make buttons clickable */
+}
+
+.dots{
+    height: 5px;
+    width: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.dots.active{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.dots.passive{
+    height: 5px;
+    width: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.dotsPlace{
+    display: flex;
+    gap: 10px;
+}
+.FeedbacksContainter {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
