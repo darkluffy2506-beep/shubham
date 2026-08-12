@@ -117,13 +117,15 @@ const experiences = [
   {
     title: "SOC Analyst",
     company_name: "SISL Infotech",
-    icon: ctlogo,
+    icon: sisl,
     iconBg: "#383E56",
     date: "AUGUST 2025 - Present",
     points: [
-      "Internship Duration - 6 months",
-      "Monitoring and maintaining the Alerts.",
-      "Escalates to L2 ",
+      "Monitor and triage security alerts from SIEM, EDR, firewall, WAF, etc.",
+      "Investigate alerts and logs to identify suspicious activity and false positives.",
+      "Analyze IPs, domains, users, endpoints, and authentication events during investigations.",
+      "Escalate genuine/high-risk incidents to L2/L3 according to SOC procedures. ",
+      "Document investigations and close alerts with proper analysis and recommendations."
     ],
   },
 
