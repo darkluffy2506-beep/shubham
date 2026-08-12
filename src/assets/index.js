@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import masslogo from "./company/masslogo.png";
 import ctlogo from "./company/ct-logo.png";
-
+import sisl from "./company/sisl.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -54,5 +54,6 @@ export {
   ctlogo,
   carrent,
   jobit,
+  sisl,
   tripguide,
 };

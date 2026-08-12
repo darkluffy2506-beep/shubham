@@ -21,7 +21,9 @@ import {
   tripguide,
   threejs,
   ctlogo,
+  sisl,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -130,19 +132,6 @@ const experiences = [
   },
 
   {
-    title: "DBA Manager",
-    company_name: "Celebal Technologies",
-    icon: ctlogo,
-    iconBg: "#383E56",
-    date: "May 2024 - July 2024",
-    points: [
-      "Internship Duration - 2 months",
-      "Monitoring and maintaining the DataBase.",
-      "TechnolOgy using Oracle SQL.",
-      "Participating in data reviews and providing constructive feedback to team leader",
-    ],
-  },
-  {
     title: "Digital Forensic Investigater",
     company_name: "Massmatic Cyber Forensic",
     icon: masslogo,
@@ -155,7 +144,20 @@ const experiences = [
       "Removing bad sectors from the devices like Malwares, virus etc.",
     ],
   },
-  
+
+  {
+    title: "DBA Manager",
+    company_name: "Celebal Technologies",
+    icon: ctlogo,
+    iconBg: "#383E56",
+    date: "May 2024 - July 2024",
+    points: [
+      "Internship Duration - 2 months",
+      "Monitoring and maintaining the DataBase.",
+      "TechnolOgy using Oracle SQL.",
+      "Participating in data reviews and providing constructive feedback to team leader",
+    ],
+  },
 ];
 
 const testimonials = [

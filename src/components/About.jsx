@@ -47,16 +47,16 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-8xl leading-[30px]'
-        >
-        I'm a skilled software developer with experience in TypeScript and JavaScript, 
-        and expertise in frameworks like React, Node.js, and Three.js. I'm a quick 
-        learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        className='mt-4 text-secondary text-[17px] max-w-8xl leading-[30px]'>
+  I’m a SOC Analyst and Cybersecurity Specialist with a strong background
+  in software development, specializing in JavaScript, TypeScript, React,
+  Node.js, and Three.js. I combine cybersecurity expertise with a developer
+  mindset to analyze threats, build secure applications, and create
+  efficient, scalable, and user-friendly digital solutions. I’m always eager
+  to learn, solve real-world problems, and turn ideas into impactful
+  technology.    </motion.p>
 
-      <div className='mt-20 flex flex-nowrap gap-10'>
+      <div className='mt-32 flex flex-nowrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
