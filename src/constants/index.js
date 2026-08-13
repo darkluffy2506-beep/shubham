@@ -1,29 +1,29 @@
+import mobile from "../assets/mobile.png";
+import backend from "../assets/backend.png";
+import creator from "../assets/creator.png";
+import web from "../assets/web.png";
 
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  masslogo,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  ctlogo,
-  sisl,
-} from "../assets";
+import javascript from "../assets/tech/javascript.png";
+import typescript from "../assets/tech/typescript.png";
+import html from "../assets/tech/html.png";
+import css from "../assets/tech/css.png";
+import reactjs from "../assets/tech/reactjs.png";
+import redux from "../assets/tech/redux.png";
+import tailwind from "../assets/tech/tailwind.png";
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import git from "../assets/tech/git.png";
+import figma from "../assets/tech/figma.png";
+import docker from "../assets/tech/docker.png";
+import threejs from "../assets/tech/threejs.svg";
+
+import masslogo from "../assets/company/masslogo.png";
+import ctlogo from "../assets/company/ct-logo.png";
+import sisl from "../assets/company/sisl.png";
+
+import carrent from "../assets/carrent.png";
+import jobit from "../assets/jobit.png";
+import tripguide from "../assets/tripguide.png";
 
 export const navLinks = [
   {
