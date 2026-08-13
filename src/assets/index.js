@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import masslogo from "./company/masslogo.png";
 import ctlogo from "./company/ct-logo.png";
 import sisl from "./company/sisl.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,6 +38,7 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -50,10 +52,12 @@ export {
   tailwind,
   typescript,
   threejs,
+
   masslogo,
   ctlogo,
+  sisl,
+
   carrent,
   jobit,
-  sisl,
   tripguide,
 };

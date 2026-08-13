@@ -1,3 +1,4 @@
+
 import {
   mobile,
   backend,
@@ -23,7 +24,6 @@ import {
   ctlogo,
   sisl,
 } from "../assets";
-
 
 export const navLinks = [
   {
